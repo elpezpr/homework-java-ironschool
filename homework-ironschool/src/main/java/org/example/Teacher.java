@@ -44,7 +44,6 @@ public class Teacher {
 
     // Method to generate teacherId
     private String generateTeacherId() {
-        //String id = "T" + nextId;
         String id = "T" + String.format("%03d", nextId);  // %03d formats the number as 3-digits
         nextId++;
         return id;
